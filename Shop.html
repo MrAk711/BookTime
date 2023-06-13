@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المتجر</title>
+
+    <link rel="stylesheet" href="styleShop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Harmattan&family=Kanit:wght@500&family=Noto+Kufi+Arabic&family=Pacifico&family=Readex+Pro&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="x-icon" href="images/booktime.png">
+
+  </head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+    
+    <a  href="Home.html" ><img src="images/booktime.png" alt=""></a>
+    </div>
+
+    <div class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+     
+    </div>
+
+
+    <a href="https:/wa.me/967734938541"  target="_blank" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a> 
+  <div class="sideBar">
+<div class="sideContent">
+  <i class='bx bx-x' id="closeBar"></i>
+<li>
+  <div class="navLink">
+    <a href="Home.html" >الرئيسية</a>
+    <i class='bx bx-home ' id="sideIcons"></i>
+
+
+  </div>
+ <div class="navLink">
+  <a href="Shop.html">المتجر</a>
+  <i class='bx bx-store ' id="sideIcons"></i>
+
+
+ </div>
+<div class="navLink">
+  <a href="register.html">تسجيل الدخول</a>
+  <i class='bx bxs-user-circle ' id="sideIcons"></i>
+  
+</div>  
+
+<div class="navLink">
+  <a href="About.html"> من نحن</a>
+  
+  <i class='bx bxs-business'id="sideIcons" ></i>
+
+</div>
+
+
+<div class="navLink">
+  <a href="">الكتب الانجليزية</a>
+  <i class='bx bx-book'id="sideIcons"></i>
+
+
+</div>
+
+<div class="navLink">
+  <a href="Dashboard.html">  ادارة الموقع</a>
+  
+  <i class='bx bxs-user' id="sideIcons"  ></i>
+
+</div>
+<div class="navLink">
+  <a href="https://www.facebook.com/taw13">تواصل معنا</a>
+  <i class='bx bxs-message-edit'id="sideIcons"  ></i>
+
+
+</div>
+
+
+</li>
+
+
+
+</div>
+
+
+  </div>
+
+    <i class='bx bx-shopping-bag ' id="cartIcon"></i>
+    </nav>
+    <div class="cart">
+      <h2 class="cartTitle"> السلة الخاصة بك</h2>
+      <div class="cartContent">
+
+      </div>
+
+      <div class="total">
+        <div class="totalTitle">مجموع السلة</div>
+        <div class="totalPrice">0 ريال</div>
+      
+      </div>
+      <button class="buyNow">اطلب الان</button>
+      <i class='bx bx-x' id="closeCart"></i>
+      <div class="cartDetails">
+        <h3 class="coupon">عندك كوبون خصم؟</h3>
+        <i class='bx bxs-coupon cIcon'></i>
+        <input class="couponSpace" type="search" name="" id="" placeholder="اكتب رمز الكوبون">
+        <button class="apply">تطبيق</button>
+      </div>
+    </div>
+ <section class="shopContainer">
+  <br>
+  <br>
+  <br>
+
+  <a href="#"><i class='bx bx-chevron-up-circle scroll'></i></a>
+
+<!-- Checkout Form -->
+<div class="container">
+  <i class="fa-solid fa-arrow-left backflip" ></i>
+  <div class="title">اتمام الطلب</div>
+  <div class="content">
+    <form action="#">
+      <div class="user-details">
+        <div class="input-box">
+          <span class="details">الاسم الأول </span>
+          <input type="text" placeholder="اكتب اسمك هنا" required>
+        </div>
+        <div class="input-box">
+          <span class="details">اللقب</span>
+          <input type="text" placeholder="اللقب  " required>
+        </div>
+        <div class="input-box">
+          <span class="details">رقم الهاتف </span>
+          <input type="text" placeholder=" +9677 " required>
+        </div>
+        <div class="input-box">
+          <span class="details">رقم الواتساب</span>
+          <input type="text" placeholder="+9677  " required>
+        </div>
+        <div class="input-box">
+          <span class="details"> العنوان</span>
+          <input type="text" placeholder="عنوانك الحالي" required>
+        </div>
+        <label  for="">نقطة الاستلام المفضلة</label> <br>
+        <br>
+        <select class="select" name="" id="" required>
+        
+            <option value="1" selected="1">كريتر</option>
+            <option value="1">خور مكسر</option>
+        <option value="1">المعلا</option>
+        <option value="1" >المنصورة</option>
+        <option value="1" >الشيخ عثمان</option>
+        <option value="1">الممدارة</option>
+        </select>
+      </div>
+      
+      <div class="button">
+        <input type="submit" value="اتمام الطلب">
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- end -->
+
+
+<!-- popUp order placed -->
+<div class="popupOrder">
+<img src="images/check.png" alt="">
+<h2>شكرا</h2>
+<p>تم اتمام طلبك بنجاح. سيتم التواصل معك قريبا !</p>
+<button id="popupBtn">تم</button>
+
+</div>
+<!-- end -->
+    <h1 class="heading"><span> مرحبا بكم في بوك تايم</span></h1>
+        <!-- serach bar -->
+        <div class="searchBar">
+          <input type="search" id="searchInput" onkeyup="search()" >
+          <i class="fas fa-search" id="searchIcon"></i>
+      
+          </div>
+        <!-- end -->
+        
+<div class="shopContent">
+<div class="productBox">
+<img src="images/12 rules of life.png" alt="" class="productImage">
+<h2 class="productTitle"> Twelve Rules of Life</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+
+<div class="productBox" >
+    <img src="images/b1.png" alt="" class="productImage">
+    <h2 class="productTitle"> Twenty One Lessons for the 21st Century</h2>
+    <span class="productPrice">5000 ريال</span>
+    <i class='bx bx-shopping-bag add-cart'></i>
+    </div>
+
+ <div class="productBox" >
+ <img src="images/b2.png" alt="" class="productImage">
+ <h2 class="productTitle"> THE 100$ STARTUP</h2>
+ <span class="productPrice">5000 ريال</span>
+ <i class='bx bx-shopping-bag add-cart'></i>
+ </div>
+
+ <div class="productBox">
+<img src="images/b3.png" alt="" class="productImage">
+ <h2 class="productTitle"> The Forty Rules of Love</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+
+<div class="productBox" data-name="p-1">
+ <img src="images/b5.png" alt="" class="productImage">
+<h2 class="productTitle"> Steve Jobs</h2>
+ <span class="productPrice">5000 ريال</span>
+ <i class='bx bx-shopping-bag add-cart'></i>
+ </div>
+
+<div class="productBox" data-name="p-2">
+<img src="images/b4.png" alt="" class="productImage">
+<h2 class="productTitle"> GOOD VIBES, GOOD LIFE</h2>
+ <span class="productPrice">5000 ريال</span>
+  <i class='bx bx-shopping-bag add-cart'></i>
+  </div>
+
+  <div class="productBox" data-name="p-2">
+  <img src="images/B6.png" alt="" class="productImage">
+    <h2 class="productTitle"> THE MAGIC OF Thinking BIG</h2>
+   <span class="productPrice">5000 ريال</span>
+    <i class='bx bx-shopping-bag add-cart'></i>
+  </div>
+
+ <div class="productBox" data-name="p-2">
+  <img src="images/b7.png" alt="" class="productImage">
+  <h2 class="productTitle"> ZERO to ONE</h2>
+   <span class="productPrice">5000 ريال</span>
+    <i class='bx bx-shopping-bag add-cart'></i>
+    </div>
+
+ <div class="productBox" data-name="p-2">
+   <img src="images/B8.png" alt="" class="productImage">
+   <h2 class="productTitle"> THINKIG, FAST AND SLOW</h2>
+   <span class="productPrice">5000 ريال</span>
+  <i class='bx bx-shopping-bag add-cart'></i>
+  </div>
+
+ <div class="productBox" data-name="p-2">
+   <img src="images/B9.png" alt="" class="productImage">
+  <h2 class="productTitle"> The Subtle Art of Not Giving A Fuck</h2>
+   <span class="productPrice">5000 ريال</span>
+ <i class='bx bx-shopping-bag add-cart'></i>
+</div>
+
+
+
+  <div class="productBox" data-name="p-2">
+   <img src="images/b11.png" alt="" class="productImage">
+ <h2 class="productTitle"> Atomic Habits</h2>
+ <span class="productPrice">5000 ريال</span>
+ <i class='bx bx-shopping-bag add-cart'></i>
+ </div>
+
+ <div class="productBox" data-name="p-2">
+  <img src="images/b16.png" alt="" class="productImage">
+<h2 class="productTitle"> The Power of your subconnscious Mind</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox" data-name="p-2">
+  <img src="images/b17.png" alt="" class="productImage">
+<h2 class="productTitle"> The 48 laws of POWER</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+
+<div class="productBox" data-name="p-2">
+  <img src="images/b21.png" alt="" class="productImage">
+<h2 class="productTitle"> Brief Answers to the Big Questions</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+
+<div class="productBox" data-name="p-2">
+  <img src="images/b22.png" alt="" class="productImage">
+<h2 class="productTitle"> The Compound Effect</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox" data-name="p-2">
+  <img src="images/b23.png" alt="" class="productImage">
+<h2 class="productTitle"> DEEP WORK</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox" data-name="p-2">
+  <img src="images/b24.png" alt="" class="productImage">
+<h2 class="productTitle"> Elon Musk</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox" data-name="p-1">
+  <img src="images/b25.png" alt="" class="productImage">
+<h2 class="productTitle"> The 7 Habits of Highly Effective People</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox" data-name="p-1">
+  <img src="images/b26.png" alt="" class="productImage">
+<h2 class="productTitle"> Th1rteen R3asons WHY</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox" data-name="p-1">
+  <img src="images/b20.png" alt="" class="productImage">
+<h2 class="productTitle"> Attitude is Everything</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox" data-name="p-1">
+  <img src="images/b34.png" alt="" class="productImage">
+<h2 class="productTitle"> BEYOND ORDER</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox" data-name="p-1">
+  <img src="images/b31.png" alt="" class="productImage">
+<h2 class="productTitle"> The Archer</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox"data-name="p-1">
+  <img src="images/b29.png" alt="" class="productImage">
+<h2 class="productTitle"> And Then There Were None</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+
+<div class="productBox"data-name="p-1">
+  <img src="images/b35.png" alt="" class="productImage">
+<h2 class="productTitle"> Fact Fullness</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox"data-name="p-1">
+  <img src="images/b36.png" alt="" class="productImage">
+<h2 class="productTitle"> Harry Potter</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox"data-name="p-1">
+  <img src="images/b37.png" alt="" class="productImage">
+<h2 class="productTitle"> How To Avoid A Climate Disaster</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox"data-name="p-1">
+  <img src="images/b38.png" alt="" class="productImage">
+<h2 class="productTitle"> Leaders Eat Last</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox"data-name="p-1">
+  <img src="images/b39.png" alt="" class="productImage">
+<h2 class="productTitle"> Measure What Matters</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox"data-name="p-1">
+  <img src="images/b40.png" alt="" class="productImage">
+<h2 class="productTitle"> Men Without Women</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox"data-name="p-2">
+  <img src="images/b41.png" alt="" class="productImage">
+<h2 class="productTitle"> Money Master The Game</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox"data-name="p-2">
+  <img src="images/b42.png" alt="" class="productImage">
+<h2 class="productTitle"> Looking for alaska</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+
+
+<div class="productBox"data-name="p-2">
+  <img src="images/b43.png" alt="" class="productImage">
+<h2 class="productTitle">Kafka on the shore</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+
+<div class="productBox"data-name="p-2">
+  <img src="images/b44.png" alt="" class="productImage">
+<h2 class="productTitle"> And the Mountains Echoed</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox"data-name="p-2">
+  <img src="images/b45.png" alt="" class="productImage">
+<h2 class="productTitle"> Dharma </h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+<div class="productBox"data-name="p-2">
+  <img src="images/b46.png" alt="" class="productImage">
+<h2 class="productTitle"> Birthday stories</h2>
+<span class="productPrice">5000 ريال</span>
+<i class='bx bx-shopping-bag add-cart'></i>
+</div>
+
+
+
+
+</div>
+</section>
+
+    
+<div class="pagecontainer">
+  <button class="button" id="startBtn" disabled>
+    <i class="fa-solid fa-angles-left"></i>
+  </button>
+  <button class="button prevNext" id="prev" disabled>
+    <i class="fa-solid fa-angle-left"></i>
+  </button>
+  <div class="links">
+    <a href="#" class="link active">1</a>
+    <a href="#" class="link">2</a>
+    <a href="#" class="link">3</a>
+    <a href="#" class="link">4</a>
+    <a href="#" class="link">5</a>
+  </div>
+  <button class="button prevNext" id="next">
+    <i class="fa-solid fa-angle-right"></i>
+  </button>
+  <button class="button" id="endBtn">
+    <i class="fa-solid fa-angles-right"></i>
+  </button>
+</div>
+
+<div class="butto">
+
+<button class="bt" data-target="p-1" >روايات</button>
+<button class="bt" data-target="p-2">كتب رومانسية</button>
+
+
+
+</div>
+
+<div class="butt">
+  <button class="btF" data-target="p-1" >تطوير الذات</button>
+  <button class="btF" data-target="p-2">سيرة ذاتية </button>
+
+  
+</div>
+
+
+
+
+
+
+<div class="conLoader">
+  <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_userh0rw.json" loop background="transparent"  class="loader" speed="1"  style="width: 200px; height: 300px;"  autoplay></lottie-player> 
+
+</div>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="Shop.js"></script>
+</body>
+</html>

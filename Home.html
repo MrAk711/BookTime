@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوك تايم</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Harmattan&family=Kanit:wght@500&family=Noto+Kufi+Arabic&family=Pacifico&family=Readex+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+<link rel="shortcut icon" type="x-icon" href="images/booktime.png">
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></head>
+<body>
+    <nav class="navbar">
+<div class="logo">
+<img src="images/booktime.png" alt="">
+</div>
+
+<div class="menu-btn">
+    <i class="fa-solid fa-bars"></i>
+
+</div>
+
+
+
+
+<!-- SearchBar -->
+<div class="searchBar">
+    <input type="search" id="searchInput" onkeyup="search()" >
+    <i class="fas fa-search" id="searchIcon"></i>
+
+    </div>
+    
+
+    <div class="wishList">
+        <i class='bx bxs-heart' id="wishIcon"></i>
+     
+    
+    
+    </div>
+    
+    </div>
+    
+</nav>
+<div class="searchBox">
+    <div class="searchProducts" >
+        <img src="images/12 rules of life.png"  alt="" class="searchImage">
+        <div class="detailsBox">
+          <h6 class="searchTitle">Twelve Rules for Life</h6>   
+      
+      
+      </div>
+      
+      </div> 
+
+      <div class="searchProducts" >
+        <img src="images/b1.png"  alt="" class="searchImage">
+        <div class="detailsBox">
+          <h6 class="searchTitle">Twenty One Lessons for the 21st Century</h6>   
+      
+      
+      </div>
+      
+      </div> 
+
+      <div class="searchProducts">
+        <img src="images/b2.png"  alt="" class="searchImage">
+        <div class="detailsBox">
+          <h6 class="searchTitle">THE 100$ STARTUP</h6>   
+      
+      
+      </div>
+      
+      </div> 
+
+      <div class="searchProducts">
+        <img src="images/b3.png"  alt="" class="searchImage">
+        <div class="detailsBox">
+          <h6 class="searchTitle">The Forty Rules of Love</h6>   
+      
+      
+      </div>
+      
+      </div> 
+
+      <div class="searchProducts">
+        <img src="images/b4.png"  alt="" class="searchImage">
+        <div class="detailsBox">
+          <h6 class="searchTitle">Good Vibes, Good Life</h6>   
+      
+      
+      </div>
+      
+      </div> 
+
+      <div class="searchProducts">
+        <img src="images/b5.png"  alt="" class="searchImage">
+        <div class="detailsBox">
+          <h6 class="searchTitle">Steve Jobs</h6>   
+      
+      
+      </div>
+      
+      </div> 
+</div>
+
+
+
+<!-- end -->
+<!-- wishList start -->
+<div class="wishSlide">
+    <div class="wishProducts"data-title="Twelve Rules for Life">
+        <img src="images/12 rules of life.png"  alt="" class="wishImage">
+        <div class="wishBox">
+            <i class='bx bx-x' id="closeList"></i>
+          <div class="wishTitle">Twelve Rules for Life</div>   
+      
+      
+      </div>
+      
+      </div> 
+
+
+
+</div>
+
+
+
+
+
+<!-- side bar starts -->
+<div class="sideBar">
+    <div class="sideContent">
+      <i class='bx bx-x' id="closeBar"></i>
+    <li>
+      <div class="navLink">
+        <a href="Home.html" >الرئيسية</a>
+        <i class='bx bx-home ' id="sideIcons"></i>
+    
+    
+      </div>
+     <div class="navLink">
+      <a href="Shop.html">المتجر</a>
+      <i class='bx bx-store ' id="sideIcons"></i>
+    
+    
+     </div>
+    <div class="navLink">
+      <a href="register.html">تسجيل الدخول</a>
+      <i class='bx bxs-user-circle ' id="sideIcons"></i>
+      
+    </div>  
+    
+    <div class="navLink">
+      <a href="About.html">من نحن </a>
+      
+      <i class='bx bxs-business'id="sideIcons" ></i>
+    
+    </div>
+    
+
+    <div class="navLink">
+      <a href="shop.html">الكتب الانجليزية</a>
+      <i class='bx bx-book'id="sideIcons"></i>
+    
+    
+    </div>
+    <div class="navLink">
+        <a href="Dashboard.html">  ادارة الموقع</a>
+        
+        <i class='bx bxs-user' id="sideIcons"  ></i>
+      
+      </div>
+    <div class="navLink">
+      <a href="https://www.facebook.com/taw13">تواصل معنا</a>
+      <i class='bx bxs-message-edit'id="sideIcons"  ></i>
+    
+    
+    </div>
+    </li>
+    
+    
+    
+    </div>
+    
+    
+      </div>
+<!-- end -->
+
+<a href="https:/wa.me/967734938541"  target="_blank" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
+ <section class="content">
+    <div class="shelf">
+        <img src="images/shelf1.png" alt="">
+        
+        
+        </div>
+        <div class="book-slider">
+            <div class="wrapper">
+                <a href=""><img src="images/12 rules of life.png" alt=""></a>
+                <a href=""><img src="images/b1.png" alt=""></a>
+                <a href=""><img src="images/b2.png" alt=""></a>
+                <a href=""><img src="images/b3.png" alt=""></a>
+                <a href=""><img src="images/b7.png" alt=""></a>
+
+
+            </div>
+          
+
+
+
+
+
+        </div>
+<div class="audio">
+<audio src="Files/Billie Eilish  hotline edit.mp3"   ></audio>
+
+
+</div>
+ 
+<a href="#"><i class='bx bx-chevron-up-circle scroll'></i></a>
+
+
+
+
+
+
+
+
+
+
+
+<h1>مجموعة مميزة من الكتب العربية والعالمية</h1>
+<p>أول متجر إلكتروني يمني لبيع الكتب الورقية مع خدمة التوصيل لجميع المحافظات</p>
+<a href="Shop.html"><button class="btn">تسوق الان</button></a>
+
+</section>
+
+
+ <section id="sec" class="sec">
+  
+<div class="featuredProducts" id="featuredProducts">
+<h1 class="heading"><span>الكتب الجديدة</span></h1>
+<div class="swiper featuredSlider">
+<div class="swiper-wrapper">
+<div class="swiper-slide box " id="box" >
+<div class="icons">
+<a href="Shop.html" class='bx bx-shopping-bag add-cart'></a>
+<a href="" class="fas fa-heart add-list" id="1"></a>
+<a href="#featuredProducts" class="fas fa-eye eyeBtn" data-name="p-1" ></a>
+
+</div>
+<div class="image">
+<img src="images/12 rules of life.png" alt="">
+</div>
+
+
+</div>
+
+<div class="swiper-slide box " >
+    <div class="icons">
+    <a href="Shop.html" class='bx bx-shopping-bag add-cart'></a>
+  
+    <a href="" class="fas fa-heart add-list" id="2"></a>
+    <a href="#featuredProducts" class="fas fa-eye eyeBtn " data-name="p-2"></a>
+    
+    </div>
+    <div class="image">
+    <img src="images/b1.png" alt="">
+    </div>
+
+    
+    </div>
+
+    <div class="swiper-slide box">
+        <div class="icons">
+            <a href="Shop.html" class='bx bx-shopping-bag add-cart'></a>
+        <a href="" class="fas fa-heart add-list" id="3"></a>
+        <a href="#featuredProducts" class="fas fa-eye eyeBtn" data-name="p-3"></a>
+        
+        </div>
+        <div class="image">
+        <img src="images/b2.png" alt="">
+        </div>
+      
+        
+        </div>
+
+
+        <div class="swiper-slide box">
+            <div class="icons">
+                <a href="Shop.html" class='bx bx-shopping-bag add-cart'></a>
+            <a href="" class="fas fa-heart add-list" id="4"></a>
+            <a href="#featuredProducts" class="fas fa-eye eyeBtn" data-name="p-4"></a>
+            
+            </div>
+            <div class="image">
+            <img src="images/b3.png" alt="">
+            </div>
+       
+            
+            </div>
+
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="Shop.html" class='bx bx-shopping-bag add-cart'></a>
+                <a href="" class="fas fa-heart add-list" id="5"></a>
+                <a href="#featuredProducts" class="fas fa-eye eyeBtn" data-name="p-5"></a>
+                
+                </div>
+                <div class="image">
+                <img src="images/b4.png" alt="">
+                </div>
+            
+                
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="Shop.html" class='bx bx-shopping-bag add-cart'></a>
+                    <a href="" class="fas fa-heart add-list" id="6"></a>
+                    <a href="#featuredProducts" class="fas fa-eye eyeBtn" data-name="p-6"></a>
+                    
+                    </div>
+                    <div class="image">
+                    <img src="images/b5.png" alt="">
+                    </div>
+             
+                    
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="Shop.html" class='bx bx-shopping-bag add-cart'></a>
+                        <a href="" class="fas fa-heart add-list" id="7"></a>
+                        <a href="#featuredProducts" class="fas fa-eye eyeBtn" data-name="p-7"></a>
+                        
+                        </div>
+                        <div class="image">
+                        <img src="images/b6.png" alt="">
+                        </div>
+                    
+                        
+                        </div>
+
+                        <div class="swiper-slide box">
+                            <div class="icons">
+                                <a href="Shop.html" class='bx bx-shopping-bag add-cart'></a>
+                            <a href="" class="fas fa-heart add-list"id="8"></a>
+                            <a href="#featuredProducts" class="fas fa-eye eyeBtn" data-name="p-8"></a>
+                            
+                            </div>
+                            <div class="image">
+                            <img src="images/b7.png" alt="">
+                            </div>
+                       
+                            
+                            </div>
+
+                            <div class="swiper-slide box">
+                                <div class="icons">
+                                    <a href="Shop.html" class='bx bx-shopping-bag add-cart'></a>
+                                <a href="" class="fas fa-heart add-list" id="9"></a>
+                                <a href="#featuredProducts" class="fas fa-eye eyeBtn" data-name="p-9"></a>
+                                
+                                </div>
+                                <div class="image">
+                                <img src="images/b9.png" alt="">
+                                </div>
+                         
+                                
+                                </div>
+                                <div class="swiper-slide box">
+                                    <div class="icons">
+                                        <a href="Shop.html" class='bx bx-shopping-bag add-cart'></a>
+                                    <a href="" class="fas fa-heart add-list"id="10"></a>
+                                    <a href="#featuredProducts" class="fas fa-eye eyeBtn" data-name="p-10"></a>
+                                    
+                                    </div>
+                                    <div class="image">
+                                    <img src="images/b10.png" alt="">
+                                    </div>
+                                 
+                                    
+                                    </div>
+                                    <div class="swiper-slide box">
+                                        <div class="icons">
+                                            <a href="Shop.html" class='bx bx-shopping-bag add-cart'></a>
+                                        <a href="" class="fas fa-heart add-list"id="11"></a>
+                                        <a href="#featuredProducts" class="fas fa-eye eyeBtn " id="eyeBtn" data-name="p-11"></a>
+                                        
+                                        </div>
+                                        <div class="image">
+                                        <img src="images/b11.png" alt="">
+                                        </div>
+                                      
+                                        
+                                        </div>
+</div>
+<div class="swiper-button-next swip"></div>
+<div class="swiper-button-prev swip"></div>
+</div>
+
+
+
+</div>
+
+
+<div class="popUP">
+    <div class="popupCard " data-target="p-1">
+    <a ><i class="fas fa-times close-btn"></i></a>
+    <div class="product-img">
+    <img src="images/12 rules of life.png" alt="">
+    </div>
+    <div class="info">
+    <h2>Twelve Rules for Life <br><span>Jordan Peterson</span></h2> 
+    <p>Humorous, surprising, and informative, Dr. Peterson tells us why skateboarding boys and girls must be left alone, what terrible fate awaits those who criticize too easily, and why you should always pet a cat when you meet one on the street.</p>
+    <span class="productPrice">5000 ريال</span>
+    <i class='bx bxs-volume-full recordIcon' onclick="rules.play()"></i>
+    <audio src="Files/rules.mp3" id="record" ></audio>
+    
+    </div>
+    
+    </div>
+    
+    <div class="popupCard" data-target="p-2">
+        <a ><i class="fas fa-times close-btn"></i></a>
+        <div class="product-img">
+        <img src="images/b1.png" alt="">
+        </div>
+        <div class="info">
+        <h2>Twenty One Lessons for the 21st Century <br><span>Yuval Noah Harari</span></h2>
+        <p>Yuval Noah Harari's 21 Lessons for the 21st Century is a probing and visionary investigation into today's most urgent issues as we move into the uncharted territory of the future. 
+        </p>
+        <span class="productPrice">5000 ريال</span>
+        <i class='bx bxs-volume-full recordIcon' onclick="lessons.play()"></i>
+    <audio src="Files/21.mp3" id="record" ></audio>
+        
+        
+        </div>
+        
+        
+        
+        
+        </div>
+        <div class="popupCard" data-target="p-3">
+            <a ><i class="fas fa-times close-btn"></i></a>
+            <div class="product-img">
+            <img src="images/b2.png" alt="">
+            </div>
+            <div class="info">
+            <h2>The $100 Startup <br><span> Chris Guillebeau</span></h2>
+            <p>Lead a life of adventure, meaning and purpose— and  earn a good living.
+                “Thoughtful, funny, and compulsively readable, this guide shows how ordinary people can build solid livings, with independence and purpose, on their own terms.”
+            </p>
+            <span class="productPrice">5000 ريال</span>
+            <i class='bx bxs-volume-full recordIcon' data-value="p-3" onclick="startup.play()"></i>
+            <audio src="Files/the 100$.mp3" id="record" ></audio>
+            
+            </div>
+            
+            
+            
+            
+            </div>
+    
+            <div class="popupCard" data-target="p-4">
+                <a ><i class="fas fa-times close-btn"></i></a>
+                <div class="product-img">
+                <img src="images/b3.png" alt="">
+                </div>
+                <div class="info">
+                <h2>The Forty Rules of Love <br><span>Elif Shafak</span></h2>
+                <p>"A novel within a novel, The Forty Rules of Love tells two parallel stories that mirror each other across two very different cultures and seven intervening centuries."
+                </p>
+                <span class="productPrice">5000 ريال</span>
+                <i class='bx bxs-volume-full recordIcon' onclick="love.play()"></i>
+                <audio src="Files/love.mp3" id="record" ></audio>
+                
+                </div>
+                
+                
+                
+                
+                </div>
+                <div class="popupCard" data-target="p-5">
+                    <a ><i class="fas fa-times close-btn"></i></a>
+                    <div class="product-img">
+                    <img src="images/b4.png" alt="">
+                    </div>
+                    <div class="info">
+                    <h2>Good Vibes, Good Life <br><span>Vex King</span></h2>
+                    <p>How can you learn to truly love yourself? How can you transform negative emotions into positive ones? Is it possible to find lasting happiness?
+                    </p>
+                    <span class="productPrice">5000 ريال</span>
+                    <i class='bx bxs-volume-full recordIcon' onclick="vibes.play()"></i>
+                    <audio src="Files/vibes.mp3" id="record" ></audio>
+                    
+                    </div>
+                    
+                    
+                    
+                    
+                    </div>
+                    <div class="popupCard" data-target="p-6">
+                        <a ><i class="fas fa-times close-btn"></i></a>
+                        <div class="product-img">
+                        <img src="images/b5.png" alt="">
+                        </div>
+                        <div class="info">
+                        <h2>Steve Jobs <br><span>Walter Isaacson </span></h2>
+                        <p>This is a story of a very difficult and yet insanely brilliant man. Steve Jobs was a revolutionary when it came to how we use our technology — but oh dear, was he a nightmare to deal with!
+                        </p>
+                        <span class="productPrice">5000 ريال</span>
+                        <i class='bx bxs-volume-full recordIcon' onclick="steve.play()"></i>
+                    <audio src="Files/steve.mp3" id="record" ></audio>
+                        
+                        </div>
+                        
+                        
+                        
+                        
+                        </div>
+                        <div class="popupCard" data-target="p-7">
+                            <a ><i class="fas fa-times close-btn"></i></a>
+                            <div class="product-img">
+                            <img src="images/b6.png" alt="">
+                            </div>
+                            <div class="info">
+                            <h2>The Magic of Thinking Big
+
+                                <br><span>David Schwartz</span></h2>
+                            <p>The Magic of Thinking Big gives you useful methods, not empty promises. Dr. Schwartz presents a carefully designed program for getting the most out of your job, your marriage and family life, and your community.
+                            </p>
+                            <span class="productPrice">5000 ريال</span>
+                            <i class='bx bxs-volume-full recordIcon' onclick="big.play()"></i>
+                            <audio src="Files/big.mp3" id="record" ></audio>
+                            
+                            </div>
+                            
+                            
+                            
+                            
+                            </div>
+                            <div class="popupCard" data-target="p-8">
+                                <a ><i class="fas fa-times close-btn"></i></a>
+                                <div class="product-img">
+                                <img src="images/b7.png" alt="">
+                                </div>
+                                <div class="info">
+                                <h2>Zero to One <br><span>Peter Thiel</span></h2>
+                                <p>The great secret of our time is that there are still uncharted frontiers to explore and new inventions to create. In Zero to One, legendary entrepreneur and investor Peter Thiel shows how we can find singular ways to create those new things.
+                                </p>
+                                <span class="productPrice">5000 ريال</span>
+                                <i class='bx bxs-volume-full recordIcon' onclick="zero.play()"></i>
+                                <audio src="Files/zero.mp3" id="record" ></audio>
+                                
+                                </div>
+                                
+                                
+                                
+                                
+                                </div>
+                                <div class="popupCard" data-target="p-9">
+                                    <a ><i class="fas fa-times close-btn"></i></a>
+                                    <div class="product-img">
+                                    <img src="images/b9.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                    <h2>The Subtle Art of Not Giving a F*ck <br><span> Mark Manson</span></h2>
+                                    <p>In this generation-defining self-help guide, a superstar blogger cuts through the crap to show us how to stop trying to be "positive" all the time so that we can truly become better, happier people.
+                                    </p>
+                                    <span class="productPrice">5000 ريال</span>
+                                    <i class='bx bxs-volume-full recordIcon' onclick="subtle.play()"></i>
+                                    <audio src="Files/subtle.mp3" id="record" ></audio>
+                                    
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                    </div>
+                                    <div class="popupCard" data-target="p-10">
+                                        <a ><i class="fas fa-times close-btn"></i></a>
+                                        <div class="product-img">
+                                        <img src="images/b10.png" alt="">
+                                        </div>
+                                        <div class="info">
+                                        <h2>Everything is F*cked <br><span>Mark Manson</span></h2>
+                                        <p>We live in an interesting time. Materially, everything is the best it’s ever been—we are freer, healthier and wealthier than any people in human history. Yet, somehow everything seems to be irreparably and horribly f*cked
+                                        </p>
+                                        <span class="productPrice">5000 ريال</span>
+                                        <i class='bx bxs-volume-full recordIcon' onclick="everything.play()"></i>
+    <audio src="Files/everything.mp3" id="record" ></audio>
+                                        
+                                        </div>
+                                        
+                                        
+                                        
+                                        
+                                        </div>
+                                        <div class="popupCard" data-target="p-11">
+                                            <a ><i class="fas fa-times close-btn"></i></a>
+                                            <div class="product-img">
+                                            <img src="images/b11.png" alt="">
+                                            </div>
+                                            <div class="info">
+                                            <h2>Atomic Habits <br><span>James Clear</span></h2>
+                                            <p> a proven framework for improving—every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.
+                                            </p>
+                                            <span class="productPrice">5000 ريال</span>
+                                            <i class='bx bxs-volume-full recordIcon' onclick="habits.play()"></i>
+                                            <audio src="Files/habits.mp3" id="record" ></audio>
+                                            
+                                            </div>
+                                            
+                                            
+                                            
+                                            
+                                            </div>
+     </div>
+<!-- ترشيحاتنا -->
+<section class="arrivals" id="arrivals"></section>
+    <h1 class="heading"> <span>ترشيحات فريقنا</span></h1>
+    <div class="arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                 <img src="images/g12.png" alt="">       
+                </div>
+                <div class="content">
+ <h6>اسماء عبيد</h6>                  
+<p>
+    "نحن منسيّون من العالم" .. "ولا أحد منا خُلق ليكون عبداً"
+    في ارض الكاكاو يزداد الكونونيل ثراءً و الفقراء فقراً وبؤساً.
+    حقيقةً كان كتاب خفيف واعجبني ولكنه ايضاً مؤلم بسبب واقعية الاحداث</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                 <img src="images/g18.png" alt="">       
+                </div>
+                <div class="content">
+ <h6>ثروت محمد</h6>                
+<p> أعترض على كل من يرى فى هذا العمل كفر أو إلحاد أو أى شئ من هذا القبيل.
+    هو فعلا فى حاجات قريتها حسيت أن أكيد قصده حاجة لكن بعد ما خلصتها حسيت أنه بيقصد الدين بشكل عام و ليس بصورة سيئة , بل تطور رؤية و استيعاب الناس للدين .
+    لكن اللى أنا متأكدة منه ان نجيب محفوظ ده عبقرى !</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                 <img src="images/g17.png" alt="">       
+                </div>
+                <div class="content">
+    <h6>لجين محمد</h6>               
+<p>كلّ شيء مكتوب !
+    ما إن انتهيت من قراءة هذه الرواية حتى أحسستُ أن الدنيا سكتت ، و العالم سكت
+    و أنني أريدُ أن أسكتُ باقي عمري ..
+    أتأمل الحياة .. لعل روح العالم تغمرني فأفلسف الحياة كما شاء لي قلبي
+    مليئة هذه الرواية بالرموز و الحكم و التراث و الأخلاق بل وحتى الآيات الإسلامية</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                 <img src="images/g19.png" alt="">       
+                </div>
+                <div class="content">
+  <h6> روح احمد</h6>                  
+<p>“اعتقد أن ما يهم الإنسان ليست الأفراح الكبرى لكن المسرات و المتع الصغيرة التى تصنع الشىء الكثير، لقد اكتشفت السر الحقيقى للسعادة؛ وهو أن تعيش فى الآن فقط و تهتم باللحظة الحاضرة. لا تندم على الماضى أو تعمل حسابا للمستقبل،  عليك أن تحصل على هذه اللحظة الحاضرة التى تعيش فيها”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                 <img src="images/g4.png" alt="">       
+                </div>
+                <div class="content">
+   <h6>محمد شريف</h6>                 
+<p>النهاية جعلتني أبكي، لأنها رواية تقرؤنا لا العكس.
+    رواية وضعت إصبعها على جُرح حربنا اللعينة.
+    
+    غير أنّها أرشفة ممتازة للأحداث آنذاك والتركيبات النفسيّة التي يحملها الشخص الليبي. أنصح بها وأتوقع ترشّحها إلى القائمة الطويلة غدًا.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      
+
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                 <img src="images/g14.png" alt="">       
+                </div>
+                <div class="content">
+  <h6>ياسمين كمال</h6>                  
+<p>من اروع الروايات التي تترك في نفس القارئ رغبة في التفكير بكل ما هو حوله والتعمق اكثر في الدين والصلاة والحياة ....تعاطفت مع كل حدث مع كل شخصية وكاني بدل منها بكيت وضحكت وفرحت وغضبت وافتخرت في نفس الوقت فهي مزيج رائع من كاتبة اروع 👌👌 انصح بقراءتها جدا </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                 <img src="images/g6.png" alt="">       
+                </div>
+                <div class="content">
+                  
+<h6>امال علي</h6>
+<p>أرَهقتني ' أربكتنيٰ ، تَفاعلت مَعها جِداً ' ذَرفت دمعاً فِي آخرها إثر رِسالة مَاجدولين الأخرة لـِ إستيفن ،
+    لا أؤمن بِ تلك الكَمية مِن الحُب التي قد تَقتل ولا أؤمن كثيراً بوجود نِسخة من ' إستيفن ' عَلى أرض الواقع رُغم هذا وَرغم تلك الكَمية المُوجعة مِن الوجع وَالحُب أدعُوكم لِـ قراءتها
+    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     
+
+                    </div>
+                </div>
+            </a>
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                 <img src="images/g15.png" alt="">       
+                </div>
+                <div class="content">
+  <h6>حنين احمد</h6>                  
+<p>مراحل الحب .. مراحل العلاقات العاطفية للإنسان
+    منهج لا غنى عنه لدى كل حبيبة أو حبيب
+    رواية لن أقيمها الآن .. و لكنك سوف تستنتج تقييمي لها في النهاية
+    ليست واحدة و لكنها اربعة روايات منفصلة .. متصلة كخيوط اتحدت لتكوين حبلاً قوياً
+    أضحكتي .. و ابكتني  حين شعرت بفرحتي</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                 <img src="images/g8.png" alt="">       
+                </div>
+                <div class="content">
+   <h6>اية سعيد</h6>                 
+<p>رواية رائعة بحق، تُقصّر المسافة بين الحُب والإيمان، وتذيب تشنجات النفوس المضطربة في إناء التسامح.
+    اخترتُ منها هذه المقولة للرومي:
+    ”العشق ماء الحياة، والعشيق روح من نار..
+    يصبح الكون مختلفا عندما تعشق النار الماء“</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+
+                    </div>
+                </div>
+            </a>
+
+
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                 <img src="images/g9.png" alt="">       
+                </div>
+                <div class="content">
+ <h6>ريم محمد</h6>                  
+<p>في قراءتي الثانية لهذه الرواية اكتشفتُ الكثير، هذا وأنا لا أعيدُ قراءة الروايات أبداً.
+    اكتشفتُ كم عَنت لي هذه الرواية دون أن أعرف، كم حفرت في جوانب اللاوعي لدي مؤخراً فسببت مشكلة عويصة.
+    عزيزتي سحر، شكراً لقطعكِ العديد من اللحظات فجأة، شكراً لتداخل الأزمان.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                 <img src="images/g10.png" alt="">       
+                </div>
+                <div class="content">
+                  
+<h6>ريم الصالح</h6>
+<p>"كأنّ الحرية رُخصة كانت مُعارَة لنا."
+     ليس عملا ماتعا بقدر ماهو صادم ومثير. تتوالى الأحداث بين الماضي والحاضر في انسجام متباين جدًا وكأن الزمنان عوالم مختلفة بالكامل 
+    وهذه الحكاية الرهيبة دليل على القدر الذي يمكن أن تصله بشاعة الإنسان..
+    لابد أن تقرأوا هذا الكتاب!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+
+                    </div>
+                </div>
+            </a>
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                 <img src="images/g11.png" alt="">       
+                </div>
+                <div class="content">
+ <h6>أحمد حسين</h6>            
+<p>  نسخة مطولة  من "أسطورة أرض الظلام"  من الصعب الحكم بموضوعية لأن كل الأفكار والأحداث التى مررت بها في الرواية بدت لي مكررة لا أعلم أذلك نتيجة القراءة السابقة للأسطورة، أم لأن العراب لم يأت بجديد فيما يخص الديستوبيا الخاصة ببلدنا
+    أسلوب العراب ممتع كعادته </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                       
+
+                    </div>
+                </div>
+            </a>
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                 <img src="images/g16.png" alt="">       
+                </div>
+                <div class="content">
+  <h6>احمد خالد</h6>               
+<p>سيأخذ منك القليل من الساعات ويردها لك أربعين سنه.
+    كتاب خفيف يقع في 267 صفحة
+    كتاب لا يمل وربما لن تقرأه مره واحده بل أربعين مره!
+    كتاب يأخذك في رحله من التفكر والتعقل والإحسان ولكن هذه المره ليس في هذا العالم الفسيح بل في نفسك أيها الانسان</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                </div>
+            </a>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+ 
+
+    <h1 class="heading"><span>اراء عملائنا </span></h1>
+    <div class="slide-container swiper">
+<div class="slide-content">
+<div class="card-wrapper swiper-wrapper">
+
+    <div class="card-container swiper-slide">
+        <div class="card">
+        <div class="front-contentp">
+          <p>احمد خالد</p>
+        </div>
+        <div class="contentp">
+          <p class="headingp">تجربة بوك تايم</p>
+         
+          <p>
+         
+            كانت تجربة رائعة بكل ما تعنيه الكلمة, كمية متنوعة من الكتب والمصادر الكثيرة للاختيار منها ناهيك عن التعامل والتوصيل السريع
+        </p>
+       
+        </div>
+      </div>
+
+      
+      </div>
+      <div class="card-container swiper-slide">
+        <div class="card">
+        <div class="front-contentp">
+          <p>حنين احمد  </p>
+        </div>
+        <div class="contentp">
+          <p class="headingp">تجربة بوك تايم</p>
+         
+          <p>
+         
+            بوك تايم الوجهة الأولى لهواة القراءة ❤️ سهّل لي الموقع عملية البحث عن أي كتاب أريده إضافة للإطلاع على آراء الآخري        </p>
+       
+        </div>
+      </div>
+
+      
+      </div>
+
+      <div class="card-container swiper-slide">
+        <div class="card">
+        <div class="front-contentp">
+          <p>  فارس مصطفى</p>
+        </div>
+        <div class="contentp">
+          <p class="headingp">تجربة بوك تايم</p>
+         
+          <p>
+         
+حاجه في التمام منه        </p>
+       
+        </div>
+      </div>
+
+      
+      </div>
+      <div class="card-container swiper-slide">
+        <div class="card">
+        <div class="front-contentp">
+          <p> مصعب فوزي</p>
+        </div>
+        <div class="contentp">
+          <p class="headingp">تجربة بوك تايم</p>
+         
+          <p>
+         
+            كانت تجربة رائعة بكل ما تعنيه الكلمة, كمية متنوعة من الكتب والمصادر الكثيرة للاختيار منها ناهيك عن التعامل والتوصيل السريع
+        </p>
+       
+        </div>
+      </div>
+
+      
+      </div>
+
+   
+      <div class="card-container swiper-slide">
+        <div class="card">
+        <div class="front-contentp">
+          <p> محمد سمير</p>
+        </div>
+        <div class="contentp">
+          <p class="headingp">تجربة بوك تايم</p>
+         
+          <p>
+         
+            كانت تجربة رائعة بكل ما تعنيه الكلمة, كمية متنوعة من الكتب والمصادر الكثيرة للاختيار منها ناهيك عن التعامل والتوصيل السريع
+        </p>
+       
+        </div>
+      </div>
+
+      
+      </div>
+</div> 
+<div class="swiper-pagination"></div>
+</div>
+
+
+
+    </div>
+    
+ 
+
+     
+ </section>
+
+ <!-- ترشيحاتنا -->
+ <div class="conLoader">
+    <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_userh0rw.json" loop background="transparent"  class="loader" speed="1"  style="width: 200px; height: 300px;"  autoplay></lottie-player> 
+
+ </div>
+ <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+ <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>  مدير الموقع </title>
+    <link rel="stylesheet" href="Dashboard.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Harmattan&family=Kanit:wght@500&family=Noto+Kufi+Arabic&family=Pacifico&family=Readex+Pro&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+ />
+ <link rel="shortcut icon" type="x-icon" href="images/booktime.png">
+  
+  
+  
+    </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <a href="Home.html"><img src="images/booktime.png" alt=""></a>
+
+      <span class="logo_name">بوك تايم</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">الرئيسية</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">المنتجات</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">قائمة الطلبات </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">الاحصائيات</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-coin-stack' ></i>
+            <span class="links_name">المخزون</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="links_name"> مجموع الطلبات </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-user' ></i>
+            <span class="links_name">فريق العمل</span>
+          </a>
+        </li>
+      
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">الاعدادات</span>
+          </a>
+        </li>
+        <li class="log_out">
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name"> تسجيل الخروج</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">الرئيسية</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-details">
+        <img src="images/Me.png" alt="">
+        <span class="admin_name"> أحمد خالد</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">مجموع الطلبات</div>
+            <div class="number">500</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+             
+            </div>
+          </div>
+          <i class='bx bx-cart-alt cart'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">المبيعات الكلية </div>
+            <div class="number">10000</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+            </div>
+          </div>
+          <i class='bx bxs-cart-add cart two' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">الربح الكلي </div>
+            <div class="number">2000$</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              
+            </div>
+          </div>
+          <i class='bx bx-cart cart three' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic"> الارجاع</div>
+            <div class="number">10</div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+           
+            </div>
+          </div>
+          <i class='bx bxs-cart-download cart four' ></i>
+        </div>
+      </div>
+
+      <div class="sales-boxes">
+        <div class="recent-sales box">
+          <div class="title"> اخر الطلبات</div>
+          <div class="sales-details">
+            <ul class="details">
+              <li class="topic">تاريخ الطلب</li>
+              <li><a href="#">07 June 2023</a></li>
+              <li><a href="#">07 June 2023</a></li>
+              <li><a href="#">07 June 2023</a></li>
+              <li><a href="#">07 June 2023</a></li>
+              <li><a href="#">07 June 2023</a></li>
+              <li><a href="#">07 June 2023</a></li>
+              <li><a href="#">07 June 2023</a></li>
+            </ul>
+            <ul class="details">
+            <li class="topic">العميل</li>
+            <li><a href="#"> فارس مصطفى</a></li>
+            <li><a href="#"> أحمد خالد</a></li>
+            <li><a href="#"> مصعب فوزي</a></li>
+            <li><a href="#"> محمد سمير</a></li>
+            <li><a href="#"> حنين احمد</a></li>
+            <li><a href="#">احمد الدقاق </a></li>
+            <li><a href="#"> بسنت</a></li>
+            <li><a href="#"> نور الدين</a></li>
+             <li><a href="#"> نعيمة</a></li>
+          </ul>
+          <ul class="details">
+            <li class="topic">الحالة</li>
+            <li><a href="#">تم التسليم</a></li>
+            <li><a href="#">تم التسليم</a></li>
+            <li><a href="#">تم التسليم</a></li>
+            <li><a href="#">قيد المتابعة</a></li>
+            <li><a href="#">قيد المتابعة</a></li>
+            <li><a href="#">تم التسليم</a></li>
+            <li><a href="#">تم التسليم</a></li>
+             <li><a href="#">تم الارجاع</a></li>
+            <li><a href="#">قيد المتابعة</a></li>
+          </ul>
+          <ul class="details">
+            <li class="topic">الاجمالي</li>
+            <li><a href="#">50$</a></li>
+            <li><a href="#">20$</a></li>
+            <li><a href="#">$5</a></li>
+            <li><a href="#">$10</a></li>
+            <li><a href="#">$15</a></li>
+            <li><a href="#">$40</a></li>
+            <li><a href="#">$7</a></li>
+             <li><a href="#">$35</a></li>
+             <li><a href="#">$3</a></li>
+          </ul>
+          </div>
+          <div class="button">
+            <a href="#">جميع الطلبات</a>
+          </div>
+        </div>
+        <div class="top-sales box">
+          <div class="title"> الأكثر مبيعا </div>
+          <ul class="top-sales-details">
+            <li>
+            <a href="#">
+              <img src="images/g16.png" alt="">
+              <span class="product">  أربعون</span>
+            </a>
+            <span class="price">$4</span>
+          </li>
+          <li>
+            <a href="#">
+               <img src="images/g8.png" alt="">
+              <span class="product"> قواعد العشق الأربعون</span>
+            </a>
+            <span class="price">$3</span>
+          </li>
+          <li>
+            <a href="#">
+             <img src="images/g6.png" alt="">
+              <span class="product"> ماجدولين </span>
+            </a>
+            <span class="price">$7</span>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/g9.png" alt="">
+              <span class="product"> حبي الأول</span>
+            </a>
+            <span class="price">$5</span>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/g10.png" alt="">
+              <span class="product"> حكاية الجارية </span>
+            </a>
+            <span class="price">$8</span>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/g14.png" alt="">
+              <span class="product"> في قلبي أنثى عبرية </span>
+            </a>
+            <span class="price">$6</span>
+          <li>
+            <a href="#">
+              <img src="images/g15.png" alt="">
+              <span class="product">هيبتا  </span>
+            </a>
+            <span class="price">$6</span>
+          </li>
+<li>
+            <a href="#">
+             <img src="images/g17.png" alt="">
+              <span class="product"> الخيميائي</span>
+            </a>
+            <span class="price">$10</span>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <script>
+   let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+ </script>
+
+</body>
+</html>
